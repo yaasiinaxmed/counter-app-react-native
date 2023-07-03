@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "counter-app",
+    "name": "Counter App",
     "slug": "counter-app",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -21,10 +21,16 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.yaasiinahmed.counterapp"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "06baa2eb-a7fb-421f-af1e-a29de72d8aa1"
+      }
     }
   }
 }
